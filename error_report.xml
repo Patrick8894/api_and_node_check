@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="postman_test_cicd" tests="1" time="0.981">
+  <testsuite name="Get a list of transactions Copy" id="5f49d0ec-960f-4e63-af1e-22d77bc4c664" timestamp="2023-12-19T06:16:22.444Z" tests="3" failures="1" errors="0" time="0.981">
+    <testcase name="Response status code is 404" time="0.981" classname="PostmanTestCicd">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: da7abec3-3224-40b0-8a01-8c4e2e534672.]]>
+        <![CDATA[Collection name: postman_test_cicd.]]>
+        <![CDATA[Request name: Get a list of transactions Copy.]]>
+        <![CDATA[Test description: Response status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 200
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type header is application/json" time="0.981" classname="PostmanTestCicd"/>
+    <testcase name="Contract data object within the data array should exist and be an object" time="0.981" classname="PostmanTestCicd"/>
+  </testsuite>
+</testsuites>

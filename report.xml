@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="postman_test_cicd" tests="1" time="1.027">
+  <testsuite name="Get a list of transactions Copy" id="b3db4739-c09d-43bb-bdcf-fc8b17e9beb5" timestamp="2023-12-19T06:16:09.573Z" tests="3" failures="0" errors="0" time="1.027">
+    <testcase name="Response status code is 200" time="1.027" classname="PostmanTestCicd"/>
+    <testcase name="Content-Type header is application/json" time="1.027" classname="PostmanTestCicd"/>
+    <testcase name="Contract data object within the data array should exist and be an object" time="1.027" classname="PostmanTestCicd"/>
+  </testsuite>
+</testsuites>
