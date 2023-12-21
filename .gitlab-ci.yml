@@ -6,7 +6,10 @@ variables:
   # EMAIL_USERNAME: your_email@gmail.com
   # EMAIL_PASSWORD: $EMAIL_PASSWORD
 
-# before_script:
+before_script:
+  -pip install web3
+  -pip install tronpy
+  -pip install timeout_decorator
 #   - python3 -m pip install -r requirements.txt
 
 test:
