@@ -13,3 +13,4 @@ test:
   stage: test
   script:
     - python3 API_check.py
+    - python3 Node_check.py

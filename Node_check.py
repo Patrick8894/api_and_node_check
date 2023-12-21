@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from timeout_decorator import timeout
 
 sender_email = "support@chainsecurity.asia"
-receiver_email = "patrickwu8894@gmail.com"
+receiver_email = "yize@chainsecurity.asia"
 subject = "Node Connection Error"
 # body = "API Response is not valid!"
 

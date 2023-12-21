@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 api_endpoint = 'https://api-optimistic.etherscan.io/api?module=account&action=txlist&address=0x389d85599fdebc831b8b8d3667e15a35414b3e99&startblock=0&endblock=99999999&page=1&offset=10&sort=asc&apikey=W38SDZ5NTCYJCZQWWK69X82D1ER8PRWB5A'
 
 sender_email = "support@chainsecurity.asia"
-receiver_email = "patrickwu8894@gmail.com"
+receiver_email = "yize@chainsecurity.asia"
 subject = "API Error"
 body = "API Response is not valid!"
 
