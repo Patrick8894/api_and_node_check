@@ -3,6 +3,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 # tree = ET.parse('./error_report.xml')
 tree = ET.parse('./report.xml')
 root = tree.getroot()
